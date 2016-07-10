@@ -619,6 +619,8 @@
 			label = "rgb";
 			status = "okay";
 
+			qcom,rgb-sync;
+
 			red_led: qcom,rgb_0 {
 				label = "rgb";
 				linux,name = "led:rgb_red";
